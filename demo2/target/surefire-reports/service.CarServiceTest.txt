@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: service.CarServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.843 s <<< FAILURE! - in service.CarServiceTest
+testGetAll on testGetAll(service.CarServiceTest)(service.CarServiceTest)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<{2=model.Car@148080bb, 1=model.Car@dc24521}>
+	at service.CarServiceTest.testGetAll(CarServiceTest.java:66)
+
+testGetCar on testGetCar(service.CarServiceTest)(service.CarServiceTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: The test case is a prototype.
+	at service.CarServiceTest.testGetCar(CarServiceTest.java:54)
+
